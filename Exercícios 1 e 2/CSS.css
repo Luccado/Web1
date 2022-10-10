@@ -1,0 +1,42 @@
+Header{
+ background-color: blueviolet;
+ font-size: larger;
+ font-weight: bold;
+}
+
+.Classe1{
+    background-color: rgb(195, 195, 235);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#id1{
+    background-color: rgb(29, 230, 29);
+}
+
+#id2{
+    background-color: rgb(77, 77, 165);
+}
+
+#id3{
+    background-color: rgb(193, 182, 236);
+    margin-right: 600px;
+    margin-left: 600px;
+    padding: 80px;
+}
+
+#id4{
+    background-color: rgb(119, 203, 218);
+    text-align: center;
+    padding-left: 22%;
+
+}
+
+#id5{
+    background-color: rgb(166, 196, 34);
+}
+
+body div ol{
+    font-size: 20px;
+}
+
+/* Lucca Souza Di Oliveira - 20201130024 */
