@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+<body>
+    <form action="teste.html">
+        <div class="Itemform">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Coloque seu nome">
+        </div>
+
+        <div class="Itemform">
+            <label for="Sobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Insira seu sobrenome">
+        </div>
+
+        <div class="Itemform">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="Coloque seu e-mail">
+        </div>
+
+        <div class="Itemform">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone">
+        </div>
+
+        <div class="Itemform">
+            <p>Sexo:</p>
+                <select id="sexo" name="sexo" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="NaoBinario">Não Binário</option>
+                </select>
+        </div class="Itemform">
+
+        <div class="Itemform">
+            <p>Por favor selecione a linguagem:</p>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            
+        </div>
+
+        <div class="Itemform">
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Coloque uma mensagem"></textarea>
+        </div>
+
+        <div class="Itemform">
+            <button type="submit" value="Enviar">Enviar</button>
+        </div>
+
+        <div class="Itemform">
+            <input type="checkbox" id="ctz" name="ctz" value="ctz">
+            <label for="ctz"> Concordo com os termos</label><br>
+            <input type="checkbox" id="ctz1" name="ctz1" value="ctz1">
+            <label for="ctz1"> Tenho certeza que concordo com os termos</label><br>
+            <input type="checkbox" id="ctz2" name="ctz2" value="ctz2">
+            <label for="ctz2"> Tenho certeza da minha certeza</label><br><br>
+        </div>
+
+        <div class="Itemform">
+            <button type="submit" value="enviar">Cadastrar</button>
+        </div>
+    </form>
+</body>
+</html>

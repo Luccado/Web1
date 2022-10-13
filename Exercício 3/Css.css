@@ -1,0 +1,23 @@
+body{
+    background-image: url("111a03133d14214539c96e0f657dff1a.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+button{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+button:hover{
+color: black;
+}
+
+.Itemform:nth-of-type(even){
+    background-color: grey;
+}
+
+.Itemform:nth-of-type(odd){
+    background-color: lightgrey;
+}
