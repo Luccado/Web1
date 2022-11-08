@@ -7,11 +7,22 @@ img {
 }
 
 figcaption {
-    width: 40%;
+    width: 50%;
     text-align: center;
     font-style: italic;
-    font-size: 20px;
-    text-indent: 0;
+    font-size: 15px;
+    text-indent: 50px;
     margin: 0.5em;
     padding: 0.5em;
+    z-index: 99999;
+    position: absolute;
+    margin-top: -80px;
+    color: aliceblue;
+  }
+
+  h1{
+    position: absolute;
+    z-index: 99999;
+    color: yellow;
+
   }
