@@ -1,8 +1,52 @@
 div {
     border: 1px solid #000;
-    min-height: 100px;
+    min-height: 45px;
     }
     .container {
     display: grid;
     }
 
+.header {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.footer {
+    grid-column: 5;
+}
+
+.rga{
+    grid-column: 1;
+}
+
+.nome {
+    grid-column: 2;
+}
+
+.disc{
+    grid-column: 3;
+}
+
+.nota{
+    grid-column: 4;
+}
+
+.situ{
+    grid-column: 5;
+}
+
+.container{
+    background-color: #333;
+    border: 3px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto; /* coluna um até a quinta */
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto; /* de um até a décima linha */
+    gap: 2px;
+ }
+
+ .container div{
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid green;
+ }
