@@ -48,46 +48,62 @@ div {
  }
 
  div .nome {
-    background-color: rgb(124, 255, 255);
-    font-style: bold;
-    font-size: auto;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(108, 117, 56);
     
  }
 
  div .rga {
-    background-color: rgb(124, 255, 255);
+    background-color: rgb(108, 117, 56);
  }
 
  div .disc {
-    background-color: rgb(124, 255, 255);
+    background-color: rgb(108, 117, 56);
  }
 
  div .nota {
-    background-color: rgb(124, 255, 255);
+    background-color: rgb(108, 117, 56);
  }
 
- div .situ {
-    background-color: rgb(124, 255, 255);
+ div .situa {
+    background-color: rgb(108, 117, 56);
+ }
+
+ div .situr{
+    background-color: rgb(245, 61, 61);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
  }
 
 
  div .nomein{
-    background-color: rgb(248, 77, 77);
+    background-color: rgb(175, 84, 130);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
 
  div .rgain{
-    background-color: rgb(248, 77, 77);
+    background-color: rgb(175, 84, 130);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
 
  div .discin{
-    background-color: rgb(248, 77, 77);
+    background-color: rgb(175, 84, 130);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
+ 
 
  div .notain{
-    background-color: rgb(248, 77, 77);
+    background-color: rgb(175, 84, 130);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
  }
 
  div .situin{
-    background-color: rgb(248, 77, 77);
+    background-color: rgb(175, 84, 130);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  }
